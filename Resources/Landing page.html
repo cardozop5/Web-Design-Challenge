@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"-->
+  <title>Landing Page</title>
+  
+  <!--LINK BOOTSTRAP-->
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!--a class="navbar-brand text-uppercase" href="">Latitude</a-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+          <span class="navbar-text">
+              Latitude
+              </span>
+      </ul>
+      
+
+      <form class="form-inline">
+         <div class = "dropdown-container">
+           <a class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="max-temp.html">Temperature</a>
+                   <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                   <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                   <a class="dropdown-item" href="Wind-Speed.html">Wind Speed</a>
+               </div>
+            </a>        
+          </div>
+          <a class="nav-item">
+              <a class="nav-link" href="comparison_page.html" color="AquaMarine">Comparison</a>
+          </a>
+          <a class="nav-item">
+                <a class="nav-link" href="Data page.html" color="AquaMarine">Data</a>
+          </a>
+      </form>  
+  </nav>
+  
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+        <div class="jumbotron">
+            <h4 class="display-8">Summary: Latitude vs. X</h4>
+        
+            <hr class="my-4">
+            <img src="web_images/Fig1.png" alt="Latitude vs Temperature" hieght=220px width=260px style="vertical-align:left">
+            <p padding-left: 240px; style="vertical-align:right">
+                
+              The purpose of this project was to analyze how weather changes as 
+              you get closer to the equator.  To order to do the analysis, weather 
+              first pulled data from the Open Weather API to collect a dataset 
+              of over 500 cities.
+            </p>
+            
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="jumbotron">
+            <h4 class="display-8">Visualizations</h4>
+        
+            <hr class="my-4">
+            <p>            
+                <a href="max-temp.html">
+                    <img src="web_images/Fig1.png" alt="Latitude vs Temperature" height="85" width="100">
+                </a>
+                <a href="Humidity.html">
+                    <img src="web_images/Fig2.png" alt="Latitude vs Humidity" height="85" width="100">
+                </a>
+                <a href="Cloudiness.html">
+                    <img src="web_images/Fig3.png" alt="Latitude vs Cloudiness" height="85" width="100">
+                </a>
+                <a href="Wind-Speed.html">
+                    <img src="web_images/Fig4.png" alt="Latitude vs Wind Speed" height="85" width="100">
+                </a>
+            </p>
+            
+        </div>
+
+
+    </div>
+  </div>
+  </div> 
+<!--CONTAINER CLOSED-->
+
+</body>
+<footer class="footer ">  
+         &copy; Copyright Patrick Cardozo 2019
+
+    </footer>
+</html>

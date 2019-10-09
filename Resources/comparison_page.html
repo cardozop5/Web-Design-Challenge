@@ -1,0 +1,106 @@
+<!Doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+​
+
+        <!-- Link to Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+        <link rel="stylesheet" href="style.css">
+
+        <title>Comparisons_Page</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <a class="navbar-brand text-uppercase" href="">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                        <a class="nav-link" href="Landing page.html">Latitude</a>
+                </li>
+            </ul>
+      
+
+            <form class="form-inline">
+                    <div class = "dropdown-container">
+                    <a class="nav-item dropdown">
+   
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="max-temp.html">Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind-Speed.html">Wind Speed</a>
+                    </div>
+                </li>
+            </a>        
+        </div>
+        <a class="nav-item">
+            <a class="nav-link" href="comparison_page.html" color="AquaMarine">Comparison</a>
+        </a>
+        <a class="nav-item">
+              <a class="nav-link" href="Data page.html" color="AquaMarine">Data</a>
+        </a>
+    </form>  
+</nav>
+
+<div class="container">
+
+<div class="row">
+
+  <div class="col-sm-10 mx-sm-auto">
+      <div class="jumbotron">
+          <h4 class="display-8">Comparison: Latitude vs. X</h4>
+      
+          <hr class="card mb-3">
+                            <p>Click any plot to get an in-depth analysis.</p>
+                        </div>
+
+                        <div class="row text-center">
+                            <a class="col-md-6 p-5 text-decoration-none" href="max-temp.html">
+                                <h4>vs. Max Temperature </h4>
+                                <img src="web_images/Fig1.png" alt="Latitude vs Temperature" height="270" width="371" >
+                            </a>
+                            <a class="col-md-6 p-5 text-decoration-none" href="Humidity.html">
+                                <h4>vs. Humidity </h4>
+                                <img class="card-img" src="web_images/Fig2.png" alt="Lat vs. Humidity" height="auto" width="auto">
+                            </a>
+                            <a class="col-md-6 p-5 text-decoration-none" href="Cloudiness.html">
+                                <h4>vs. Cloudiness </h4>
+                                <img class="card-img" src="web_images/Fig3.png" alt="Lat vs. Cloudiness" height="auto" width="auto">
+                            </a>
+                            <a class="col-md-6 p-5 text-decoration-none" href="Wind-Speed.html">
+                                <h4>vs. Wind Speed </h4>
+                                <img class="card-img" src="web_images/Fig4.png" alt="Lat vs. Wind Speed" height="auto" width="auto">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="footer ">  
+         &copy; Copyright Patrick Cardozo 2019
+
+    </footer>
+</body>
+
+</html>

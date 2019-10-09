@@ -1,0 +1,53 @@
+.navbar {
+    background: rgb(255, 255, 255);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 1px
+}
+
+.navbar-text {
+    background-color: rgb(16, 156, 121);
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.dropdown-container {
+    position: relative;
+  }
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #363636;
+    text-align: center;
+    opacity: 12.5;
+    height: auto;
+    border-top: 2px solid rgb(21, 204, 189);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(219, 219, 206);
+    
+}
+.display-8 {
+    color: rgb(16, 156, 121);
+
+}
+.jumbotron {
+    margin-top: 2rem;
+    background-color: rgb(238, 240, 241);
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+}
+.nav-link {
+    color: rgb(74, 75, 70)
+}

@@ -1,0 +1,168 @@
+body {
+    background-color: AliceBlue;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+}
+
+.dropdown-container {
+    position: relative;
+  }
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
+
+.nav-link {
+    color: grey;
+}
+.navbar-text {
+    background-color: MediumAquaMarine;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    background-color: MediumAquaMarine;
+}
+
+.navbar-light .navbar-text {
+    color: white;
+}
+.color_text {
+    color: white;
+}
+
+.navbar-light {
+    color: white;
+}
+
+.display-8 {
+    color: MediumAquaMarine;
+}
+
+.jumbotron {
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+}
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Montserrat:300,400,500,600&display=swap');
+.navbar {
+    background: #4A148C !important;
+}
+
+.navbar a:not(.dropdown-item):not(.navbar-brand) {
+    color: hsla(0, 0%, 80%, 0.75) !important;
+    font-weight: 500;
+}
+
+.navbar .nav-item.active a:not(.dropdown-item) {
+    color: hsla(0, 0%, 95%, 1) !important;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    color: whitesmoke !important;
+    font-family: 'Audiowide', cursive;
+    letter-spacing: .3rem;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    border-top: 2px solid #CFD8DC;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    color: #424242;
+}
+
+.border {
+    border-width: 3px !important;
+    border-color: #AA00FF !important;
+}
+
+h5 {
+    font-size: 2rem !important;
+    font-weight: 600;
+}
+
+h4 {
+    color: #424242;
+}
+.greyBackground{
+	background-color: #E8E8E8;	
+	padding-top: 70px;
+}
+
+h1.dh{
+	font-family: "Calibri";
+	color: green;
+}
+
+h2.dh{
+	font-family: "Calibri";
+	color: green;
+}
+
+h2.dh{
+	font-family: "Calibri";
+	color: green;
+}
+
+
+a.navbar-brand.invdh{
+		
+	background-color: green;	
+	font-family: "Calibri";
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 30px;	
+}
+
+
+nav.navbar.navx{
+	 width: 100%;
+     position: absolute;
+     top: 0;
+}
+
+tbody.ha{
+	border-bottom: 1px solid #000; 
+	border-top: 1px solid #000;
+}
+
+#navbarDropdown:focus
+{
+  color: white;
+  background-color: green;
+  border-color: #fff;
+}
+
+a.nav-link:focus
+{	
+  color: white;
+  background-color: green;
+  border-color: #fff;	
+}
