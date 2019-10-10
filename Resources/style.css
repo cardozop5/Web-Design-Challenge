@@ -17,18 +17,18 @@
     position: relative;
   }
 
-.footer {
+/* .footer {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #363636;
+    background-color: beige;
     text-align: center;
     opacity: 12.5;
     height: auto;
     border-top: 2px solid rgb(21, 204, 189);
-}
+} */
 
 body {
     margin: 0;
